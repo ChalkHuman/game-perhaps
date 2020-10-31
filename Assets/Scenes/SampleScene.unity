@@ -14808,7 +14808,7 @@ GameObject:
   - component: {fileID: 1022878597}
   - component: {fileID: 1022878599}
   - component: {fileID: 1022878598}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18103,8 +18103,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c30e13b687fb43e45a51b978c29c1e51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 2037930947}
-  anim: {fileID: 2037930952}
+  ground:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!95 &2037930952
 Animator:
   serializedVersion: 3
